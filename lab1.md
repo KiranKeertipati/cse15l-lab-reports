@@ -5,6 +5,7 @@
 ![VScodeSS](VScodeSS.png)
 
 ## Remotely Connecting #
+- Since I use a mac laptop I did not need to work with Bash on windows
 - First open a terminal on VScode using Terminal then New Terminal on the menu bar.
 - To connect remotely we need to type `$ ssh cs15lsp23nt@ieng6.ucsd.edu` (the two letters after sp23 are specific to your username)
 - After typing this and entering, you may receive a message which will ask you if you want to continue connecting, type yes and enter
