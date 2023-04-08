@@ -13,3 +13,14 @@
 ![Remote Server Screenshot](RemoteServerSS.png)
 
 ## Trying Some Commands #
+- Next we can try commands, I tried the following commands
+1. cd ~
+2. cd
+3. ls -lat
+4. ls -a
+5. ls </home/linux/ieng6/cs15lsp23/cs15lsp23oe> (I used one of my lab group member's username for this part to check if it works)
+6. cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
+7. cat /home/linux/ieng6/cs15lsp23/public/hello.txt
+8. cat /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
+- Below I have attached a screenshot of the various outputs that you may get if you try the commands listed above
+![Tring Out Comands](TringOutComandsSS.PNG)
