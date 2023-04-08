@@ -14,13 +14,13 @@
 
 ## Trying Some Commands #
 - Next we can try commands, I tried the following commands
-1. cd ~
-2. cd
-3. ls -lat
-4. ls -a
-5. ls </home/linux/ieng6/cs15lsp23/cs15lsp23oe> (I used one of my lab group member's username for this part to check if it works)
-6. cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
-7. cat /home/linux/ieng6/cs15lsp23/public/hello.txt
-8. cat /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
+1. `cd` ~ (We do not get anything as an output because we are not working on a directory currectly)
+2. `cd` (We do not get anything as an output because we are not working on a directory currectly)
+3. `ls -lat` (We may receive an output similar to the one in my screenshot below)
+4. `ls -a` (We may receive an output similar to the one in my screenshot below)
+5. `ls </home/linux/ieng6/cs15lsp23/cs15lsp23oe>` (I used one of my lab group member's username for this part to check if it works)
+6. `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
+7. `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
+8. `cat /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
 - Below I have attached a screenshot of the various outputs that you may get if you try the commands listed above
 ![Trying Out Comands](TryingOutComandsSS.png)
