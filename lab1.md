@@ -23,4 +23,4 @@
 7. cat /home/linux/ieng6/cs15lsp23/public/hello.txt
 8. cat /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
 - Below I have attached a screenshot of the various outputs that you may get if you try the commands listed above
-![Tring Out Comands](TringOutComandsSS.PNG)
+![Trying Out Comands](TringOutComandsSS.png)
