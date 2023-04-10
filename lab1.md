@@ -15,7 +15,7 @@
 
 ## Trying Some Commands #
 - Next we can try commands, I tried the following commands
-1. `cd` ~ (We do not get anything as an output because we are not working on a directory currectly)
+1. `cd ~` (We do not get anything as an output because we are not working on a directory currectly)
 2. `cd` (We do not get anything as an output because we are not working on a directory currectly)
 3. `ls -lat` (We may receive an output similar to the one in my screenshot below)
 4. `ls -a` (We may receive an output similar to the one in my screenshot below)
