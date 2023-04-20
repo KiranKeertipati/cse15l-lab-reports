@@ -1,6 +1,6 @@
 # Lab Report 1 #
 ## Installing VScode #
-- To download VScode onto your laptop, you should click on this link [VScodeInstructions](http://a.com](https://code.visualstudio.com/) and follow the instructions.
+- To download VScode onto your laptop, you should click on this link [VScodeInstructions](https://code.visualstudio.com/) and follow the instructions.
 - I had already downloaded VScode for a previous class, so I opened it on my laptop, checked whether it was an acceptable version and then I opened the welcome page.
 - Below is the screenshot of the welcome page of my VScode:
 ![VScodeSS](VScodeSS.png)
