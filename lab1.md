@@ -3,7 +3,7 @@
 - To download VScode onto your laptop, you should click on this link [VScodeInstructions](https://code.visualstudio.com/) and follow the instructions according to the laptop you use.
 - I had already downloaded VScode for a previous class, so I opened it on my laptop, checked whether it was an acceptable version and then I opened the welcome page.
 - Below is the screenshot of the welcome page of my VScode:
-![VScodeSS](VScodeSS.png)
+<img src="VScodeSS.png" width="75%" height="75%" />
 
 ## Remotely Connecting #
 - Since I use a mac laptop I did not need to work with Bash on windows. For people who are using a windows device, git Bash is used to connect Git to your command line. So you would first download git using this link [DownloadGitForWindows](https://gitforwindows.org/) and then follow the instructions on this link [BashForWindows](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994) so your terminal can use the git bash you just installed.
@@ -13,9 +13,7 @@
 - After typing this and entering, you may receive a message which will ask you if you want to continue connecting, type yes and enter
 - You will then be asked for a Password, type in the password for your cs15sp23 account. (It may not look like the password is being typed out but finish typing it and press enter)
 - Below is the screenshot of what you should expect to see if you were able to connect to the remote server:
-![remote1](remote1.png)
 <img src="remote1.png" width="50%" height="50%" />
-![remote2](remote2.png)
 
 ## Trying Some Commands #
 - Next we can try commands, I tried the following commands
