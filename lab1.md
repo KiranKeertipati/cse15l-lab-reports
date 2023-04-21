@@ -13,7 +13,8 @@
 - After typing this and entering, you may receive a message which will ask you if you want to continue connecting, type yes and enter
 - You will then be asked for a Password, type in the password for your cs15sp23 account. (It may not look like the password is being typed out but finish typing it and press enter)
 - Below is the screenshot of what you should expect to see if you were able to connect to the remote server:
-![Remote Server Screenshot](RemoteServerSS.png)
+![remote1](remote1.png)
+![remote2](remote2.png)
 
 ## Trying Some Commands #
 - Next we can try commands, I tried the following commands
