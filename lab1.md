@@ -14,7 +14,7 @@
 - You will then be asked for a Password, type in the password for your cs15sp23 account. (It may not look like the password is being typed out but finish typing it and press enter)
 - Below is the screenshot of what you should expect to see if you were able to connect to the remote server:
 ![remote1](remote1.png)
-img src="remote1.png"  width=50% height=50%"
+<img src="remote1.png" width="50%" height="50%" />
 ![remote2](remote2.png)
 
 ## Trying Some Commands #
