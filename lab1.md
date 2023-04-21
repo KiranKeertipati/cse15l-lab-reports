@@ -3,6 +3,7 @@
 - To download VScode onto your laptop, you should click on this link [VScodeInstructions](https://code.visualstudio.com/) and follow the instructions according to the laptop you use.
 - I had already downloaded VScode for a previous class, so I opened it on my laptop, checked whether it was an acceptable version and then I opened the welcome page.
 - Below is the screenshot of the welcome page of my VScode:
+
 <img src="VScodeSS.png" width="75%" height="75%" />
 
 ## Remotely Connecting #
@@ -13,6 +14,7 @@
 - After typing this and entering, you may receive a message which will ask you if you want to continue connecting, type yes and enter
 - You will then be asked for a Password, type in the password for your cs15sp23 account. (It may not look like the password is being typed out but finish typing it and press enter)
 - Below is the screenshot of what you should expect to see if you were able to connect to the remote server:
+
 <img src="RemoteServerSS.png" width="75%" height="75%" />
 
 ## Trying Some Commands #
@@ -26,4 +28,5 @@
 7. `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
 8. `cat /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
 - Below I have attached a screenshot of the various outputs that you may get if you try the commands listed above
-![Trying Out Comands](TryingOutComandsSS.png)
+
+<img src="TryingOutComandsSS.png" width="75%" height="75%" />
