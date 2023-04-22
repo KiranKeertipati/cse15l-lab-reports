@@ -24,6 +24,7 @@ For this part of the lab report, I am going to explain the bugs in the **reverse
     The above test case resulted in a failure because the method did not give us the right output for this test. This is further explained in the rest of Part 2.
  
  
+ 
 - A input that did not induce a failure for this method is the following JUnit test:
 
     ```
@@ -36,10 +37,13 @@ For this part of the lab report, I am going to explain the bugs in the **reverse
     This input did not result in a failure because an empty array was passed in, so it just returned an empty array as the output, which was what we expected this method to do for this particular test. Hence, even though the code has a bug, this output matched what was expected and the test does not fail.
 
 
+
 - The symptom of the bug in this method, that is the output when I ran these two tests in JUnit:
 
   ![Symptom_JUnitOutput)](Symptom_JUnitOutput.png)
    By observing the image, which denotes the output we can attempt to identify what caused the failure. We can see that the end of the output says that 2 tests ran, out of which one failed. To identify which test failed we can look at the top of the output which describes that there was 1 failure and this was caused by `testReversed1` . The output further tells us what was expected versus what was recieved. So, we can notice that it expected the element 7, if the method has worked correctly, but it instead recieved 0. Now that we have identified an issue in the output we can attempt to fix the bug.
+
+
 
 - The bug in the code:
 
@@ -67,11 +71,15 @@ For this part of the lab report, I am going to explain the bugs in the **reverse
       return newArray;    
     }
     ```
-This reversed method was meant to create a new array and then copy the elements of the old array (arr) into the new array (newArray) in the reverse order. The initial version of the method with the bug, created the new array and set up the for loop to iterate through the array but instead of changing the each of the elements in newArray, it changed each of the elements in arr to the elements of newArray. This version then returned arr, instead of newArray.
+This reversed method was meant to create a new array and then copy the elements of the old array `arr` into the new array `newArray` in the reverse order.
+
+The initial version of the method with the bug, created the new array and set up the for loop to iterate through the `arr` array but instead of changing the each of the elements in `newArray `, it changed each of the elements in `arr` to the elements of `newArray`. Hence, `arr` became an array with its elements equal to 0. This version then returned `arr`, instead of `newArray`.
+
 So I noticed two errors in the implementation of the code:
-- Firstly, the loop iterated through the wrong array and hence copied the elements from the newArray to arr, which was wrong.
-- Secondly, it returned arr, instead of returning the newArray.
-So, to fix these errors, I changed the code to now iterate through newArray and copy the elements from arr in the reversed order. I also ensured that the code returns newArray, which is the reversed version of arr.
+- Firstly, the loop iterated through the wrong array and hence copied the elements from the `newArray` to `arr`, which was wrong.
+- Secondly, it returned `arr`, instead of returning the `newArray`.
+
+So, to fix these errors, I changed the code to now iterate through `newArray` and copy the elements from `arr` in the reversed order into `newArray`. I also ensured that the code returns `newArray`, which is the reversed version of `arr`.
 
 When I run both these test cases after I changed the code I get the following output:
 
@@ -79,4 +87,4 @@ When I run both these test cases after I changed the code I get the following ou
 
 ## Part 3:
 
-In lab during week 2, I learned how to clone a repository using github desktop. This kind of hand-on work really helped me understand this important concept. After cloning the repository I had to build and run a server. This was interesting and very new because that was the first time I worked with created my own server. Especially learning about ports and localhost, and how the localhost is a domain that refers to the computer I am currently working on. While reading through the code in NumberServer.java I learned that we could use String.format to display what we wanted to appear on the browser. Since working with servers is very new to me, learning with this and working with it was interesting.
+In lab during week 2, I learned how to clone a repository using github desktop. This kind of hand-on work really helped me understand this important concept. After cloning the repository I had to build and run a server. This was interesting and very new because that was the first time I worked with created my own server. Especially learning about ports and localhost, and how the localhost is a domain that refers to the computer I am currently working on. While reading through the code in `NumberServer.java` I learned that we could use `String.format` to display what we wanted to appear on the browser. Since working with servers is very new to me, learning with this and working with it was interesting.
