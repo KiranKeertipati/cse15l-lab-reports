@@ -68,3 +68,6 @@ When I run both these test cases after I changed the code I get the following ou
 
 ![Correct_JUnitOutput](Correct_JUnitOutput.png)
 
+## Part 3:
+
+In lab during week 2, I learned how to clone a repository using github desktop. This kind of hand-on work really helped me understand this important concept. After cloning the repository I had to build and run a server. This was interesting and very new because that was the first time I worked with created my own server. Especially learning about ports and localhost, and how the localhost is a domain that refers to the computer I am currently working on. While reading through the code in NumberServer.java I learned that we could use String.format to display what we wanted to appear on the browser. Since working with servers is very new to me, learning with this and working with it was interesting.
