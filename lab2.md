@@ -33,16 +33,14 @@ For this part of the lab report, I am going to explain the bugs in the **reverse
       int[] input1 = { }; 
       assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
     }
-    ```
+    ``` 
     This input did not result in a failure because an empty array was passed in, so it just returned an empty array as the output, which was what we expected this method to do for this particular test. Hence, even though the code has a bug, this output matched what was expected and the test does not fail.
-
 
 
 - The symptom of the bug in this method, that is the output when I ran these two tests in JUnit:
 
   ![Symptom_JUnitOutput)](Symptom_JUnitOutput.png)
    By observing the image, which denotes the output we can attempt to identify what caused the failure. We can see that the end of the output says that 2 tests ran, out of which one failed. To identify which test failed we can look at the top of the output which describes that there was 1 failure and this was caused by `testReversed1` . The output further tells us what was expected versus what was recieved. So, we can notice that it expected the element 7, if the method has worked correctly, but it instead recieved 0. Now that we have identified an issue in the output we can attempt to fix the bug.
-
 
 
 - The bug in the code:
