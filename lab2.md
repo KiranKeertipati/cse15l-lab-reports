@@ -29,7 +29,7 @@ public void testReversed() {
 
 - The system of the bug in this method, that is the output when I ran these two tests in JUnit:
 
-![Symptom(JUnit Output)](Symptom(JUnit Output).png)
+![Symptom_JUnitOutput)](Symptom_JUnitOutput.png)
 
 - The bug in the code:
 
