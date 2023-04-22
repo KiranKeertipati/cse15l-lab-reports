@@ -63,6 +63,7 @@ So I noticed two errors in the implementation of the code:
 - Firstly, the loop iterated through the wrong array and hence copied the elements from the newArray to arr, which was wrong.
 - Secondly, it returned arr, instead of returning the newArray.
 So, to fix these errors, I changed the code to now iterate through newArray and copy the elements from arr in the reversed order. I also ensured that the code returns newArray, which is the reversed version of arr.
+
 When I run both these test cases after I changed the code I get the following output:
 
 ![Correct_JUnitOutput](Correct_JUnitOutput.png)
