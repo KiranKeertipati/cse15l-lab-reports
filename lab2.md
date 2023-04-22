@@ -1,5 +1,11 @@
 # Lab Report 2: Servers and Bugs
 
+This lab report consists of the following:
+1. Part 1: Building StringServer
+2. Part 2: Identifying symptoms and inputs for a bug in lab 3
+3. Part 3: Reflecting on something I learned from lab 2 or lab 3
+
+
 ## Part 1:
 
 ## Part 2:
