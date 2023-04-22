@@ -5,7 +5,7 @@
 ## Part 2:
 
 For this part of the lab report, I am going to explain the bugs in the reversed method in the file ArrayExamples.java
-1. A failure inducing input for this method was the following JUnit test:
+- A failure inducing input for this method was the following JUnit test:
 
 ```
 @Test
@@ -15,7 +15,7 @@ public void testReversed1() {
 }
 ```
  
-2. A input that did not induce a failure for this method is the following JUnit test:
+- A input that did not induce a failure for this method is the following JUnit test:
 
 ```
 @Test
@@ -25,13 +25,13 @@ public void testReversed() {
 }
 ```
 
-3. The system of the bug in this method, that is the output when I ran these two tests in JUnit:
+- The system of the bug in this method, that is the output when I ran these two tests in JUnit:
 
 ![Symptom_JUnitOutput)](Symptom_JUnitOutput.png)
 
-4. The bug in the code:
+- The bug in the code:
 
-- The code before the change (with the bug) :
+  - The code before the change (with the bug) :
 
   ```
    static int[] reversed(int[] arr) {
@@ -44,7 +44,7 @@ public void testReversed() {
   ```
   
   
-- The code after the change (the bug was removed/fixed):
+  - The code after the change (the bug was removed/fixed):
 
   ```
   static int[] reversed(int[] arr) {
