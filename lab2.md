@@ -10,7 +10,7 @@ This lab report consists of the following:
 
 ## Part 2:
 
-For this part of the lab report, I am going to explain the bugs in the reversed method in the file ArrayExamples.java
+For this part of the lab report, I am going to explain the bugs in the **reversed** method in the file `ArrayExamples.java`
 
 - A failure inducing input for this method was the following JUnit test:
 
