@@ -7,7 +7,8 @@
 For this part of the lab report, I am going to explain the bugs in the reversed method in the file ArrayExamples.java
 - A failure inducing input for this method was the following JUnit test:
 
-`@Test
+`
+@Test
 
 public void testReversed1() {
 
@@ -15,12 +16,14 @@ public void testReversed1() {
   
   assertArrayEquals(new int[]{ 7, 6 }, ArrayExamples.reversed(input1));
   
-}`
+}
+`
  
  
 - A input that did not induce a failure for this method is the following JUnit test:
 
-`@Test
+`
+@Test
 
 public void testReversed() {
 
@@ -28,7 +31,8 @@ public void testReversed() {
   
   assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
   
-}`
+}
+`
 
 
 - The system of the bug in this method, that is the output when I ran these two tests in JUnit:
@@ -38,7 +42,8 @@ public void testReversed() {
 
 1. The code before the change (with the bug) :
 
-  `static int[] reversed(int[] arr) {
+  `
+  static int[] reversed(int[] arr) {
   
     int[] newArray = new int[arr.length];
     
@@ -50,12 +55,14 @@ public void testReversed() {
     
     return newArray;
     
-  }`
+  }
+  `
   
   
 2. The code after the change (the bug was removed/fixed):
 
-  `static int[] reversed(int[] arr) {
+  `
+  static int[] reversed(int[] arr) {
   
     int[] newArray = new int[arr.length];
     
@@ -67,5 +74,6 @@ public void testReversed() {
     
     return newArray;
     
-  }`
+  }
+  `
   
