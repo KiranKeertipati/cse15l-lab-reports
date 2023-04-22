@@ -9,13 +9,9 @@ For this part of the lab report, I am going to explain the bugs in the reversed 
 
 ```
 @Test
-
 public void testReversed1() {
-
-  int[] input1 = { 6, 7 };
-  
+  int[] input1 = { 6, 7 };  
   assertArrayEquals(new int[]{ 7, 6 }, ArrayExamples.reversed(input1));
-  
 }
 ```
  
@@ -24,13 +20,9 @@ public void testReversed1() {
 
 ```
 @Test
-
 public void testReversed() {
-
-  int[] input1 = { };
-  
+  int[] input1 = { }; 
   assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
-  
 }
 ```
 
@@ -57,17 +49,11 @@ public void testReversed() {
 
   ```
   static int[] reversed(int[] arr) {
-  
-    int[] newArray = new int[arr.length];
-    
-    for(int i = 0; i < arr.length; i += 1) {
-    
-      newArray[i] = arr[arr.length - i - 1];
-      
+    int[] newArray = new int[arr.length];    
+    for(int i = 0; i < arr.length; i += 1) {   
+      newArray[i] = arr[arr.length - i - 1];    
     }
-    
-    return newArray;
-    
+    return newArray;    
   }
   ```
   
