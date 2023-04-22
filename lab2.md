@@ -21,6 +21,7 @@ For this part of the lab report, I am going to explain the bugs in the **reverse
       assertArrayEquals(new int[]{ 7, 6 }, ArrayExamples.reversed(input1));
     }
     ```
+ - The above test case resulted in a failure because the method did not give us the right output for this test. This is further explained in the rest of Part 2.
  
  
 - A input that did not induce a failure for this method is the following JUnit test:
@@ -32,9 +33,10 @@ For this part of the lab report, I am going to explain the bugs in the **reverse
       assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
     }
     ```
+- This input did not result in a failure because an empty array was passed in, so it just returned an empty array as the output, which was what we expected this method to do for this particular test. Hence, even though the code has a bug, this output matched what was expected and the test does not fail.
 
 
-- The system of the bug in this method, that is the output when I ran these two tests in JUnit:
+- The symptom of the bug in this method, that is the output when I ran these two tests in JUnit:
 
   ![Symptom_JUnitOutput)](Symptom_JUnitOutput.png)
 
