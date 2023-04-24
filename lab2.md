@@ -7,7 +7,9 @@ This lab report consists of the following:
 
 
 ## Part 1:
-
+![StringServer_Hello](StringServer_Hello.png)
+![StringServer_HowAreYou](StringServer_HowAreYou.png)
+![StringServer_Code](StringServer_Code.png)
 ## Part 2:
 
 For this part of the lab report, I am going to explain the bugs in the **reversed** method in the file `ArrayExamples.java`
