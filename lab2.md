@@ -14,9 +14,17 @@ This lab report consists of the following:
 Above is my code in `StringServer.jav`. This code shows a string on the web browser. And concatinates the next string on the next line of the browser.
 
 ![StringServer_Hello](StringServer_Hello.png)
+The above is a screenshot of the web browser when **/add-message?s=Hello** is passed in.
+The methods that are called in my code are:
+- `handleRequest` method that takes in a URL parameter called `url`, and returns a String.
+- `main` method that takes in a String array as a parameter called `args` and returns nothing (void). It throws an `IOException` if the port is not given.
+
 
 ![StringServer_HowAreYou](StringServer_HowAreYou.png)
-
+The above is a screenshot of the web browser when **/add-message?s=How Are You** is passed in after **/add-message?s=Hello** was passed in previously.
+The methods that are called in my code are:
+- `handleRequest` method that takes in a URL parameter called `url`, and returns a String.
+- `main` method that takes in a String array as a parameter called `args` and returns nothing (void). It throws an `IOException` if the port is not given.
 
 ## Part 2:
 
