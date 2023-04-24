@@ -11,7 +11,7 @@ This lab report consists of the following:
 
 ![StringServer_Code](StringServer_Code.png)
 
-This is my code in `StringServer.jav`. 
+Above is my code in `StringServer.jav`. This code shows a string on the web browser. And concatinates the next string on the next line of the browser.
 
 ![StringServer_Hello](StringServer_Hello.png)
 
