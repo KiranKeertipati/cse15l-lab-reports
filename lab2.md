@@ -25,7 +25,10 @@ The arguments for `handleRequest` and the relevant fields are:
 - Another relavent field us the the String array `parameters`. This field is initialized in the array and splits the argument (the URI) in this case `/add-message?s=Hello` at the `=`. The second element in parameters is then used to change the value of `s`.
 
 How the values of the fields of the class change:
-- The field `s` is first initialized as `""`, then within the method with this specific argument it becomes  `"Hello"` and a new line.
+- The field `s` is first initialized as `""`, then within the method with this specific argument it becomes  
+```
+`"Hello"` 
+```
 
 
 <img src="StringServer_HowAreYou.png" width="75%" height="75%" />
