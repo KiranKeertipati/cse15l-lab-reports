@@ -20,25 +20,25 @@ The methods that are called in my code are:
 - `main` method that takes in a String array as a parameter called `args` and returns nothing (void). It throws an `IOException` if the port is not given.
 
 The arguments for `handleRequest` and the relevant fields are:
-- An argument that this method takes in the above screenshot is: **/add-message?s=Hello **
-- A relavent field for this method and this implementation is s, which is intitialized outside the method, but is updated within the method in the `if` branch.
-- Another relavent field us the the String array `parameters`. This field is initialized in the array and splits the argument (the URI) in this case **/add-message?s=Hello** at the **=**. The second element in parameters is then used to change the value of `s`.
+- An argument that this method takes in the above screenshot is: `/add-message?s=Hello`
+- A relavent field for this method and this implementation is `s`, which is intitialized outside the method, but is updated within the method in the `if` branch.
+- Another relavent field us the the String array `parameters`. This field is initialized in the array and splits the argument (the URI) in this case `/add-message?s=Hello` at the `=`. The second element in parameters is then used to change the value of `s`.
 
 How the values of the fields of the class change:
-- The field s is first initialized as `""`, then within the method with this specific argument it becomes  `"Hello"`.
+- The field `s` is first initialized as `""`, then within the method with this specific argument it becomes  `"Hello"` and a new line.
 
 
 <img src="StringServer_HowAreYou.png" width="75%" height="75%" />
-The above is a screenshot of the web browser when **/add-message?s=How Are You** is passed in after **/add-message?s=Hello** was passed in previously.
+The above is a screenshot of the web browser when `/add-message?s=How Are You` is passed in after `/add-message?s=Hello` was passed in previously.
 
 The methods that are called in my code are:
 - `handleRequest` method that takes in a URL parameter called `url`, and returns a String.
 - `main` method that takes in a String array as a parameter called `args` and returns nothing (void). It throws an `IOException` if the port is not given.
 
 The arguments for `handleRequest` and the relevant fields are:
-- An argument that this method takes in the above screenshot is: **/add-message?s=How Are You **
-- A relavent field for this method and this implementation is s, which is intitialized outside the method, but is updated within the method in the `else` branch.
-- Another relavent field us the the String array `parameters`. This field is initialized in the array and splits the argument (the URI) in this case **/add-message?s=How Are You** at the **=**. The second element in parameters is then used to change the value of `s`.
+- An argument that this method takes in the above screenshot is: `/add-message?s=How Are You`
+- A relavent field for this method and this implementation is `s`, which is intitialized outside the method, but is updated within the method in the `else` branch.
+- Another relavent field us the the String array `parameters`. This field is initialized in the array and splits the argument (the URI) in this case `/add-message?s=How Are You` at the `=`. The second element in parameters is then used to change the value of `s`.
 
 
 How the values of the fields of the class change:
@@ -47,6 +47,7 @@ How the values of the fields of the class change:
 `"Hello"`
 `"How Are You"`
 ```
+and a new line is added at the end
 
 
 
