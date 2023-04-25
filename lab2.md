@@ -20,7 +20,7 @@ The methods that are called in my code are:
 - `main` method that takes in a String array as a parameter called `args` and returns nothing (void). It throws an `IOException` if the port is not given.
 
 The arguments for `handleRequest` and the relevant fields are:
-- An argument that this method takes in the above screenshot is: **/add-message?s=Hello**
+- An argument that this method takes in the above screenshot is: **/add-message?s=Hello **
 - A relavent field for this method and this implementation is s, which is intitialized outside the method, but is updated within the method in the `if` branch.
 - Another relavent field us the the String array `parameters`. This field is initialized in the array and splits the argument (the URI) in this case **/add-message?s=Hello** at the **=**. The second element in parameters is then used to change the value of `s`.
 
@@ -36,7 +36,7 @@ The methods that are called in my code are:
 - `main` method that takes in a String array as a parameter called `args` and returns nothing (void). It throws an `IOException` if the port is not given.
 
 The arguments for `handleRequest` and the relevant fields are:
-- An argument that this method takes in the above screenshot is: **/add-message?s=How Are You**
+- An argument that this method takes in the above screenshot is: **/add-message?s=How Are You **
 - A relavent field for this method and this implementation is s, which is intitialized outside the method, but is updated within the method in the `else` branch.
 - Another relavent field us the the String array `parameters`. This field is initialized in the array and splits the argument (the URI) in this case **/add-message?s=How Are You** at the **=**. The second element in parameters is then used to change the value of `s`.
 
