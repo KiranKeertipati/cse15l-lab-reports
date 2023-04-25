@@ -13,6 +13,7 @@ This lab report consists of the following:
 Above is my code in `StringServer.java`. This code shows a string on the web browser. And concatinates the next string on the next line of the browser.
 
 <img src="StringServer_Hello.png" width="75%" height="75%" />
+
 The image above is a screenshot of the web browser when `/add-message?s=Hello` is passed in.
 
 The methods that are called in my code are:
@@ -32,6 +33,7 @@ How the values of the fields of the class change:
 
 
 <img src="StringServer_HowAreYou.png" width="75%" height="75%" />
+
 The image above is a screenshot of the web browser when `/add-message?s=How Are You` is passed in after `/add-message?s=Hello` was passed in previously.
 
 The methods that are called in my code are:
