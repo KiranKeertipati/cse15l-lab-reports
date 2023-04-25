@@ -8,12 +8,11 @@ This lab report consists of the following:
 
 ## Part 1:
 
-
-![StringServer_Code](StringServer_Code.png)
-
+<img src="StringServer_Code.png" width="75%" height="75%" />
+                                                        
 Above is my code in `StringServer.java`. This code shows a string on the web browser. And concatinates the next string on the next line of the browser.
 
-![StringServer_Hello](StringServer_Hello.png)
+<img src="StringServer_Hello.png" width="75%" height="75%" />
 The above is a screenshot of the web browser when **/add-message?s=Hello** is passed in.
 
 The methods that are called in my code are:
@@ -25,7 +24,7 @@ The arguments for this method and the relevant fields are:
 - A relavent field for this method and this implementation is s, which is intitialized outside the method, but is updated within the method in the `if` branch.
 
 
-![StringServer_HowAreYou](StringServer_HowAreYou.png)
+<img src="StringServer_HowAreYou.png" width="75%" height="75%" />
 The above is a screenshot of the web browser when **/add-message?s=How Are You** is passed in after **/add-message?s=Hello** was passed in previously.
 
 The methods that are called in my code are:
