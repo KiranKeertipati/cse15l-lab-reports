@@ -11,20 +11,31 @@ This lab report consists of the following:
 
 ![StringServer_Code](StringServer_Code.png)
 
-Above is my code in `StringServer.jav`. This code shows a string on the web browser. And concatinates the next string on the next line of the browser.
+Above is my code in `StringServer.java`. This code shows a string on the web browser. And concatinates the next string on the next line of the browser.
 
 ![StringServer_Hello](StringServer_Hello.png)
 The above is a screenshot of the web browser when **/add-message?s=Hello** is passed in.
+
 The methods that are called in my code are:
 - `handleRequest` method that takes in a URL parameter called `url`, and returns a String.
 - `main` method that takes in a String array as a parameter called `args` and returns nothing (void). It throws an `IOException` if the port is not given.
+
+The arguments for this method and the relevant fields are:
+- An argument that this method takes in the above screenshot is: **/add-message?s=Hello**
+- A relavent field for this method and this implementation is s, which is intitialized outside the method, but is updated within the method in the `if` branch.
 
 
 ![StringServer_HowAreYou](StringServer_HowAreYou.png)
 The above is a screenshot of the web browser when **/add-message?s=How Are You** is passed in after **/add-message?s=Hello** was passed in previously.
+
 The methods that are called in my code are:
 - `handleRequest` method that takes in a URL parameter called `url`, and returns a String.
 - `main` method that takes in a String array as a parameter called `args` and returns nothing (void). It throws an `IOException` if the port is not given.
+
+The arguments for this method and the relevant fields are:
+- An argument that this method takes in the above screenshot is: **/add-message?s=How Are You**
+- A relavent field for this method and this implementation is s, which is intitialized outside the method, but is updated within the method in the `else` branch.
+
 
 ## Part 2:
 
