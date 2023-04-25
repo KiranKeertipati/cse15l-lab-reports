@@ -27,7 +27,7 @@ The arguments for `handleRequest` and the relevant fields are:
 How the values of the fields of the class change:
 - The field `s` is first initialized as `""`, then within the method with this specific argument it becomes  
 ```
-`"Hello"` 
+"Hello"
 ```
 
 
@@ -47,8 +47,8 @@ The arguments for `handleRequest` and the relevant fields are:
 How the values of the fields of the class change:
 - The field s is first initialized as `""`, then within the method with this specific argument it becomes  
 ```
-`"Hello"`
-`"How Are You"`
+"Hello"
+"How Are You"
 ```
 and a new line is added at the end
 
