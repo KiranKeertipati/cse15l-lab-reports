@@ -8,9 +8,14 @@ This lab report consists of the following:
 
 ## Part 1:
 
+### Code in `StringServer.java`:
+
 <img src="StringServer_Code.png" width="75%" height="75%" />
                                                         
 Above is my code in `StringServer.java`. This code shows a string on the web browser. And concatinates the next string on the next line of the browser.
+
+
+### First ScreenShot using `/add-message?s=Hello` as argument:
 
 <img src="StringServer_Hello.png" width="75%" height="75%" />
 
@@ -31,7 +36,7 @@ How the values of the fields of the class change:
 "Hello"
 ```
 
-
+### Second ScreenShot using `/add-message?s=How Are You` as argument:
 <img src="StringServer_HowAreYou.png" width="75%" height="75%" />
 
 The image above is a screenshot of the web browser when `/add-message?s=How Are You` is passed in after `/add-message?s=Hello` was passed in previously.
@@ -52,7 +57,7 @@ How the values of the fields of the class change:
 "Hello"
 "How Are You"
 ```
-and a new line is added at the end
+
 
 
 
