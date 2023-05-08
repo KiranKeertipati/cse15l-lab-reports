@@ -111,6 +111,33 @@ kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep -c "disaster" techni
 The `grep -c` command can be used to count the number of lines in which the given string/word occurs in the specified file. This could be useful if we what to just count how many times a word occurs in a very large file. And if we would want a number to show the ammount of occurances rather than printing out all the lines of occurance in such a large file. This would serve to be more consize rather than using the grep command and manually counting the number of times the string matched.
 
 
+### 3. `grep -n` command:
+
+This command includes the lines that match with the given string and it also includes the line number of the lines in the specified file. When the line matches it displays the line number also in the output.
+
+- **Example 1:**
+The following example uses the `grep -n` command to check the matches of the string `Our` in the file `preface.txt`. This results in the output having the lines which contain the string `Our`, anong with their respective line numbers. The following code block is the command and the output that was displayed by it:
+
+```
+kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep -n "Our" technical/911report/preface.txt
+17:            Our mandate was sweeping. The law directed us to investigate "facts and circumstances
+30:            Our aim has not been to assign individual blame. Our aim has been to provide the
+```
+- **Example 2:**
+The following example uses `grep -n` to output the lines along with the lines numbers which match with the string `residents` in the file `residents_sue_city.txt`. The following code block shows the command that I passed in the output with the line numbers and the lines that match displayed:
+
+```
+kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep -n "residents" technical/government/Media/residents_sue_city.txt
+5:Mobile home residents sue city for loss, moving costs
+8:Residents and former residents of a Lincoln Place mobile home
+12:On Friday, a group of residents filed a lawsuit against
+26:Raimondi has been evicting residents and demolishing trailers
+42:lawsuit. He said the city still maintains that the residents of the
+```
+**What `grep -n` does and why it could be useful:**
+The `grep -n` command can be used to get both the line numbers and the lines that match the string in the command line, displayed in the output. This could be helpful to later find which exact lines match the string. Instead of searching through the entire file for these particular lines, now with the line numbers we could easily identify which line matches in the file. This could help if the user wanted to check if which lines in the files contain a particular word, and then later wanted to get more context and would re-check the lines from the file itself. Knowing the line numbers for such situations could prove to be useful, since it provides the user more information about the lines that match and hence the user can easily pick them up from the file itself.
+
+--------
 
 This considers the string given as the entire word and doesnt match it if it is just part of a word (-w)
 
@@ -207,12 +234,5 @@ kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep -o "Our" technical/9
 Our
 Our
 Our
-```
-
-this prints out the line number(-n)
-```
-kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep -n "Our" technical/911report/preface.txt
-17:            Our mandate was sweeping. The law directed us to investigate "facts and circumstances
-30:            Our aim has not been to assign individual blame. Our aim has been to provide the
 ```
 
