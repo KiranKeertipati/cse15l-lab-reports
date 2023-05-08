@@ -394,3 +394,48 @@ find -type f -empty: (finds empty files, but since there are no empty files in t
 ```
 kirankeertipati@Kirans-MacBook-Pro stringsearch-data % find technical -empty
 ```
+find -exec grep 'Our':
+```
+kirankeertipati@Kirans-MacBook-Pro stringsearch-data % find technical/911report -exec grep 'Our' {} \;
+grep: technical/911report: Is a directory
+                2003; Apr. 5, 2004. Our investigation has uncovered no evidence that the 9/11
+                report, list of Flight 93 victims, undated (as of July 9, 2004). Our conclusion that
+                Revisiting Our 1995 Estimate," ICB 97-8, Apr. 1997, p. 1.
+                Muslim ummah [community of believers] are treated with contempt and dishonour. Our
+                religion is denigrated. Our holy places desecrated. Our countries are occupied. Our
+                and overall policy by J-5. Our concept combines the J-2 and J-3 functions
+            Our recommendation to leave counterterrorism intelligence collection in the United
+                home?" Our national defense at home is the responsibility, first, of the Department
+            Our investigation built on the work of many others, including the Joint Inquiry of
+            108. Hamilton, How Congress Works, p. 17. Our review of the classified schedules of
+                of a new type of terrorism. Our overview of U.S. capabilities for dealing with it
+                al Qaeda as "your agents." Bin Ladin has stated flatly,"Our fight against these
+                and accessed from this country. Our investigation has uncovered no credible evidence
+                money. Our knowledge of the funding during this period, before the operatives
+            Our only sources for what intelligence officials thought at the time are what they
+            Our inability to ascertain the activities of Hazmi and Mihdhar during their first two
+            Our investigators who have dealt directly with him and studied his background find
+            Our knowledge of the international travels of the al Qaeda operatives selected for
+                Qaeda and the Taliban argued over strategy for 2001. Our focus has naturally been on
+                recommendations to address this critical need. Our recommendations grow out of the
+            Our mandate was sweeping. The law directed us to investigate "facts and circumstances
+            Our aim has not been to assign individual blame. Our aim has been to provide the
+                communities in non-Muslim countries. Our enemy is twofold: al Qaeda, a stateless
+            Terrorism is a tactic used by individuals and organizations to kill and destroy. Our
+                nations as partners in its development and implementation. Our effort should be
+            Our strategy should also include defenses. America can be attacked in many ways and
+                Our report shows a determined and capable group of plotters. Yet the group was
+                ratio is against us! Our cost is billions against the terrorists' costs of
+            These are the right questions. Our answer is that we need short-term action on a
+                Recommendation: Our report shows that al Qaeda has tried to acquire
+                safer, they are not safe. Our report shows that the terrorists analyze defenses.
+            Our investigation showed that two systemic weaknesses came together in our border
+            Our border screening system should check people efficiently and welcome friends.
+            Our borders and immigration system, including law enforcement, ought to send a
+                terrorist attack at home. Our history has shown us that insecurity threatens
+                attacks and have since found no evidence to change that conclusion. Our own
+                our many Arab friends. Our enemy is a radical network of terrorists, and every
+            President Bush argued that the new war went beyond Bin Ladin." Our war on terror
+                to publicize an assessment of the growing al Qaeda danger. Our government could
+                ```
+ 
