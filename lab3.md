@@ -59,7 +59,7 @@ kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep -i "OuR" technical/9
                 pause, reflect, and sometimes change our minds as we studied these problems and
                 considered the views of others. We hope our report will encourage our fellow
 ```
-- **Example 2: **
+- **Example 2:**
 
 The following is the command I used. The command matches `waTER` regardless of the case of the letters and the output is all the lines in `water_fees.txt` that match this requirement.
 
@@ -86,7 +86,8 @@ Tulare County Water Works may also come under Schneider's
 yet sure whether Tulare County Water Works will accept renters'
 ```
 **What `grep-i` does and why it could be useful:**
-The `grep -i` command matches the lines in the file/files with the string provided in the command regardess of the case of the letters in the string. This is helpful if we want to find all lines of the words in a file regardless of whether they are capitalized or not. This way we can get the accurate lines that match with the string provided without having to use grep multiple times to check of any variations in the case of the letters in the string.
+
+The `grep -i` command matches the lines in the file with the string provided in the command regardess of the case of the letters in the string. This is helpful if we want to find all lines containg the word in a file regardless of whether the word is capitalized or not. This way we can get the accurate lines that match with the string provided without having to use grep multiple times to check any variations in the case of the letters in the string.
 
 This counts the number of matches in the file: (-c)
 
