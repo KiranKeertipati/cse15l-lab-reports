@@ -399,6 +399,7 @@ find -type f -empty: (finds empty files, but since there are no empty files in t
 kirankeertipati@Kirans-MacBook-Pro stringsearch-data % find technical -empty
 ```
 find -exec grep 'Our':
+
 ```
 kirankeertipati@Kirans-MacBook-Pro stringsearch-data % find technical/911report -exec grep 'Our' {} \;
 grep: technical/911report: Is a directory
@@ -441,5 +442,6 @@ grep: technical/911report: Is a directory
                 our many Arab friends. Our enemy is a radical network of terrorists, and every
             President Bush argued that the new war went beyond Bin Ladin." Our war on terror
                 to publicize an assessment of the growing al Qaeda danger. Our government could
-                ```
+ 
+ ```
  
