@@ -390,6 +390,9 @@ technical/plos
 technical/biomed
 technical/911report
 ```
+
+https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
+
 find -type f -empty: (finds empty files, but since there are no empty files in technical there is no output)
 ```
 kirankeertipati@Kirans-MacBook-Pro stringsearch-data % find technical -empty
