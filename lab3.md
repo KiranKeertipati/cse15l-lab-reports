@@ -48,6 +48,7 @@ kirankeertipati@Kirans-MacBook-Pro stringsearch-data %
 ```
 
 This counts the number of matches in the file: (-c)
+
 ```kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep -c "Our" technical/911report/preface.txt
 2
 ```
