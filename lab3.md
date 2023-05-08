@@ -20,6 +20,7 @@ The following was the output of the above command:
             Our mandate was sweeping. The law directed us to investigate "facts and circumstances
             Our aim has not been to assign individual blame. Our aim has been to provide the
 ```
+--------
 
 ### 1. `grep -i` command:
 
@@ -89,6 +90,7 @@ yet sure whether Tulare County Water Works will accept renters'
 
 The `grep -i` command matches the lines in the file with the string provided in the command regardess of the case of the letters in the string. This is helpful if we want to find all lines containing the word in a file regardless of whether the word is capitalized or not. This way we can get the accurate lines that match with the string provided without having to use grep multiple times to check any variations in the case of the letters in the string.
 
+--------
 
 ### 2. `grep -c` command:
 This command counts the number of lines in the file that match with the string provided in the command line.
@@ -110,6 +112,7 @@ kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep -c "disaster" techni
 **What `grep -c` does and why it could be useful:**
 The `grep -c` command can be used to count the number of lines in which the given string/word occurs in the specified file. This could be useful if we what to just count how many times a word occurs in a very large file. And if we would want a number to show the ammount of occurances rather than printing out all the lines of occurance in such a large file. This would serve to be more consize rather than using the grep command and manually counting the number of times the string matched.
 
+--------
 
 ### 3. `grep -n` command:
 
