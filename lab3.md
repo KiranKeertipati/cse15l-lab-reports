@@ -1,7 +1,7 @@
 # Lab Report 3 #
 
 ### Researching Commands #
-Out of the three commands we had to pick: `less`, `find`, and `grep`, I chose the `grep` command.
+Out of the three commands we had to pick: `less`, `find`, and `grep`, and I chose the `grep` command.
 
 ## The `grep` Command: #
 
