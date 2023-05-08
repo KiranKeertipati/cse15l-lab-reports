@@ -54,3 +54,25 @@ technical/911report/chapter-12.txt
 technical/911report/chapter-10.txt
 technical/911report/chapter-11.txt
 ```
+
+find -iname: (fins a single file by approximate name)
+```
+kirankeertipati@Kirans-MacBook-Pro stringsearch-data % find technical/911report -inam
+e "*apter*txt"
+technical/911report/chapter-13.4.txt
+technical/911report/chapter-13.5.txt
+technical/911report/chapter-13.1.txt
+technical/911report/chapter-13.2.txt
+technical/911report/chapter-13.3.txt
+technical/911report/chapter-3.txt
+technical/911report/chapter-2.txt
+technical/911report/chapter-1.txt
+technical/911report/chapter-5.txt
+technical/911report/chapter-6.txt
+technical/911report/chapter-7.txt
+technical/911report/chapter-9.txt
+technical/911report/chapter-8.txt
+technical/911report/chapter-12.txt
+technical/911report/chapter-10.txt
+technical/911report/chapter-11.txt
+```
