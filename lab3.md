@@ -373,4 +373,24 @@ kirankeertipati@Kirans-MacBook-Pro stringsearch-data % find technical/government
 13782928        8 -rwxr-xr-x    1 kirankeertipati  staff                2850 May  7 11:14 technical/government/Media/Legal_Aid_campaign.txt
 13782862        8 -rwxr-xr-x    1 kirankeertipati  staff                2851 May  7 11:14 technical/government/Media/Aid_Gets_7_Million.txt
 ```
+find -type d:
+(lists all the directories)
 
+```
+kirankeertipati@Kirans-MacBook-Pro stringsearch-data % find technical -type d
+technical
+technical/government
+technical/government/About_LSC
+technical/government/Env_Prot_Agen
+technical/government/Alcohol_Problems
+technical/government/Gen_Account_Office
+technical/government/Post_Rate_Comm
+technical/government/Media
+technical/plos
+technical/biomed
+technical/911report
+```
+find -type f -empty: (finds empty files, but since there are no empty files in technical there is no output)
+```
+kirankeertipati@Kirans-MacBook-Pro stringsearch-data % find technical -type f -empty
+```
