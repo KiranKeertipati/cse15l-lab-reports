@@ -5,25 +5,38 @@ Out of the three commands we had to pick: `less`, `find`, and `grep`, I chose th
 
 ## The `grep` Command: #
 
-This is the link I used to research the different ways to implement the `grep` command: `https://www.redhat.com/sysadmin/linux-find-command`. This is the hyperlinked version of the link to the website I used for this lab report: [LinkToResource](https://www.redhat.com/sysadmin/linux-find-command)
+This is the link I used to research the different ways to implement the `grep` command: `https://www.geeksforgeeks.org/grep-command-in-unixlinux/`. This is the hyperlinked version of the link to the website I used for this lab report: [LinkToResource](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
-### The 4 Command-line options #
+## The 4 Command-line options: #
 I used all of these variations of the `grep` command on the files and directories from `./technical`.
 
-This command finds all the lines with Our in preface.txt
+
+This is the normal `grep` command which finds all the lines with `Our` in `preface.txt`. I chose to include the normal `grep` command to showcase the difference when we use the other variations:
 ```
 kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep "Our"  technical/911report/preface.txt
+```
+The following was the output of the above command:
+```
             Our mandate was sweeping. The law directed us to investigate "facts and circumstances
             Our aim has not been to assign individual blame. Our aim has been to provide the
 ```
 
-This command finds all the lines with OuR, but since there are no lines with it, it prints nothing:
+### 1. `grep -i` command:
+
+- **Example 1:**
+
+This command bellow is the normal `grep`command that tries finds all the lines which match with the string `OuR`, but since there are no lines with it, it has no output:
 ```
 kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep "OuR" technical/911report/preface.txt
 ```
-Now, the -i before OuR, changes the command to now ignore the case of the string/word we are searching for, hence it searches for the letter o,u,r strung together in any case within the file preface.txt
+Now, when we use the `grep -i` command before `OuR`, this changes the command to now ignore the case (upper/lower case) of the string/word we are searching for. Hence now the command searches for the letters o,u,r strung together in any case within the file preface.txt
+
 ```
 kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep -i "OuR" technical/911report/preface.txt
+```
+Hence this is the output for the above command:
+
+```
                 Democrats chosen by elected leaders from our nation's capital at a time of great
             We have come together with a unity of purpose because our nation demands it.
             Our mandate was sweeping. The law directed us to investigate "facts and circumstances
@@ -49,8 +62,36 @@ kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep -i "OuR" technical/9
                 the American people and their amazing resilience and courage as they fought back. We
                 pause, reflect, and sometimes change our minds as we studied these problems and
                 considered the views of others. We hope our report will encourage our fellow
-kirankeertipati@Kirans-MacBook-Pro stringsearch-data % 
 ```
+- **Example 2: **
+
+The following is the command I used. The command matches `waTER` regardless of the case of the letters and the output is all the lines in `water_fees.txt` that match this requirement.
+
+ ```
+ kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep -i "waTER"  technical/government/Media/water_fees.txt
+ ```
+ The following is the resulatant output from this command:
+ 
+ ```
+Alpaugh water fees may triple
+Alpaugh residents may see their water fees triple to avoid
+The debate will unfold tonight at a Tulare County Water Works
+District 1 meeting. The district, which provides water service to
+water.
+Tulare County Water Works' contract with its only supplier,
+Alpaugh Irrigation District, which supplies water to farmers in the
+area, ends July 1. And Alpaugh Irrigation, which provides water,
+recordkeeping and maintenance services to Tulare County Water
+Works, is scaling back its role. The district will sell only water
+fast enough to meet the rising cost of delivering water, amassed an
+If Tulare County Water Works wants to keep its 170 hookups
+Tulare County Water Works can't raise prices until a July 17
+under Proposition 218, a process Tulare County Water Works
+At tonight's Tulare County Water Works' informational meeting,
+County Water Works board president, interrupted an interview
+The farmworker thought the water was getting turned off today,
+Tulare County Water Works may also come under Schneider's
+yet sure whether Tulare County Water Works will accept renters'
 
 This counts the number of matches in the file: (-c)
 
