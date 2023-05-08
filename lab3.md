@@ -3,6 +3,51 @@
 ## Researching Commands #
 Out of the three commands we had to pick: `less`, `find`, and `grep`, I choose the `find` command.
 
+### `grep` command: #
+
+This command finds all the lines with Our in preface.txt
+```
+kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep "Our"  technical/911report/preface.txt
+            Our mandate was sweeping. The law directed us to investigate "facts and circumstances
+            Our aim has not been to assign individual blame. Our aim has been to provide the
+```
+
+This command finds all the lines with OuR, but since there are no lines with it, it prints nothing:
+```
+kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep "OuR" technical/911report/preface.txt
+```
+Now, the -i before OuR, changes the command to now ignore the case of the string/word we are searching for, hence it searches for the letter o,u,r strung together in any case within the file preface.txt
+```
+kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep -i "OuR" technical/911report/preface.txt
+                Democrats chosen by elected leaders from our nation's capital at a time of great
+            We have come together with a unity of purpose because our nation demands it.
+            Our mandate was sweeping. The law directed us to investigate "facts and circumstances
+                aviation, the role of congressional oversight and resource allocation, and other
+                areas determined relevant by the Commission. In pursuing our mandate, we have
+                our mandate. We have sought to be independent, impartial, thorough, and nonpartisan.
+                From the outset, we have been committed to share as much of our investigation as we
+            Our aim has not been to assign individual blame. Our aim has been to provide the
+                political grievances, but its hostility toward us and our values is limitless. Its
+            We learned that the institutions charged with protecting our borders, civil aviation,
+                fault lines within our government-between foreign and domestic intelligence, and
+            At the outset of our work, we said we were looking backward in order to look forward.
+                the same time protecting our country against future attacks. We have been forced to
+                think about the way our government is organized. The massive departments and
+            As we complete our final report, we want to begin by thanking our fellow
+                dialogue. We want to express our considerable respect for the intellect and judgment
+                of our colleagues, as well as our great affection for them.
+                Philip Zelikow, has contributed innumerable hours to the completion of this report,
+                built. They have given good advice, and faithfully carried out our guidance. They
+                the sources we have consulted. But in an event of this scale, touching so many
+                issues and organizations, we are conscious of our limits. We have not interviewed
+                understanding of a landmark in the history of our nation.
+                the American people and their amazing resilience and courage as they fought back. We
+                pause, reflect, and sometimes change our minds as we studied these problems and
+                considered the views of others. We hope our report will encourage our fellow
+kirankeertipati@Kirans-MacBook-Pro stringsearch-data % 
+```
+
+
 ### `Find` command: #
 
 This is the link I used to research the different ways to implement the `find` command: `https://www.redhat.com/sysadmin/linux-find-command` This is the hyperlinked version of the link of the website that I used for this lab report: [LinkToResource](https://www.redhat.com/sysadmin/linux-find-command)
