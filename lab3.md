@@ -141,6 +141,13 @@ kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep "an" technical/911re
             
   ```
 
+this prints out just the matches string instead of printing out the entire line:(-o)
+```
+kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep -o "Our" technical/911report/preface.txt
+Our
+Our
+Our
+```
 
 ### `Find` command: #
 
