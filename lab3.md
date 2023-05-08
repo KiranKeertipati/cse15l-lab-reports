@@ -25,18 +25,14 @@ The following was the output of the above command:
 
 - **Example 1:**
 
-This command bellow is the normal `grep`command that tries finds all the lines which match with the string `OuR`, but since there are no lines with it, it has no output:
+This command bellow is the normal `grep`command that tries finds all the lines in `preface.txt` which match with the string `OuR`, but since there are no lines with the specific `Our` string, it has no output:
 ```
 kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep "OuR" technical/911report/preface.txt
 ```
-Now, when we use the `grep -i` command before `OuR`, this changes the command to now ignore the case (upper/lower case) of the string/word we are searching for. Hence now the command searches for the letters o,u,r strung together in any case within the file preface.txt
+Now, when we use the `grep -i` command before `OuR`, this changes the command to now ignore the case (upper/lower case) of the string/word we are searching for. Hence now the command searches for the letters o,u,r strung together in any case within the file `preface.txt`. Below is the command the resulting output:
 
 ```
 kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep -i "OuR" technical/911report/preface.txt
-```
-Hence this is the output for the above command:
-
-```
                 Democrats chosen by elected leaders from our nation's capital at a time of great
             We have come together with a unity of purpose because our nation demands it.
             Our mandate was sweeping. The law directed us to investigate "facts and circumstances
@@ -69,10 +65,6 @@ The following is the command I used. The command matches `waTER` regardless of t
 
  ```
  kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep -i "waTER"  technical/government/Media/water_fees.txt
- ```
- The following is the resulatant output from this command:
- 
- ```
 Alpaugh water fees may triple
 Alpaugh residents may see their water fees triple to avoid
 The debate will unfold tonight at a Tulare County Water Works
@@ -92,10 +84,12 @@ County Water Works board president, interrupted an interview
 The farmworker thought the water was getting turned off today,
 Tulare County Water Works may also come under Schneider's
 yet sure whether Tulare County Water Works will accept renters'
+```
+**What `grep-i` does and why it could be useful:**
+The `grep -i` command matches the lines in the file/files with the string provided in the command regardess of the case of the letters in the string. This is helpful if we want to find all lines of the words in a file regardless of whether they are capitalized or not. This way we can get the accurate lines that match with the string provided without having to use grep multiple times to check of any variations in the case of the letters in the string.
 
 This counts the number of matches in the file: (-c)
 
-```
 kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep -c "Our" technical/911report/preface.txt
 2
 ```
