@@ -392,5 +392,5 @@ technical/911report
 ```
 find -type f -empty: (finds empty files, but since there are no empty files in technical there is no output)
 ```
-kirankeertipati@Kirans-MacBook-Pro stringsearch-data % find technical -type f -empty
+kirankeertipati@Kirans-MacBook-Pro stringsearch-data % find technical -empty
 ```
