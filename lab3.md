@@ -149,6 +149,13 @@ Our
 Our
 ```
 
+this prints out the line number(-n)
+```
+kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep -n "Our" technical/911report/preface.txt
+17:            Our mandate was sweeping. The law directed us to investigate "facts and circumstances
+30:            Our aim has not been to assign individual blame. Our aim has been to provide the
+```
+
 ### `Find` command: #
 
 This is the link I used to research the different ways to implement the `find` command: `https://www.redhat.com/sysadmin/linux-find-command` This is the hyperlinked version of the link of the website that I used for this lab report: [LinkToResource](https://www.redhat.com/sysadmin/linux-find-command)
