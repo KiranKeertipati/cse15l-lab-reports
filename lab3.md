@@ -55,7 +55,8 @@ technical/911report/chapter-10.txt
 technical/911report/chapter-11.txt
 ```
 
-find -iname: (fins a single file by approximate name)
+find -iname: (finds a single file by approximate name)
+(finds files using name and ignoring case(t and T)
 ```
 kirankeertipati@Kirans-MacBook-Pro stringsearch-data % find technical/911report -inam
 e "*apter*txt"
