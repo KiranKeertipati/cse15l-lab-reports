@@ -138,6 +138,7 @@ kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep -n "residents" techn
 26:Raimondi has been evicting residents and demolishing trailers
 42:lawsuit. He said the city still maintains that the residents of the
 ```
+
 **What `grep -n` does and why it could be useful:**
 
 The `grep -n` command can be used to get both the line numbers and the lines that match the string in the command line, displayed in the output. This could be helpful to later find which exact lines match the string. Instead of searching through the entire file for these particular lines, now with the line numbers we could easily identify which line matches in the file. This could help if the user wanted to check if which lines in the files contain a particular word, and then later wanted to get more context and would re-check the lines from the file itself. Knowing the line numbers for such situations could prove to be useful, since it provides the user more information about the lines that match and hence the user can easily pick them up from the file itself.
@@ -299,6 +300,7 @@ a property-related fee," attorney Patrick Enright said. He's not
 protest votes at the July 17 meeting
 
 ```
+
 
 **What `grep -v` does and why it could be useful:**
 
