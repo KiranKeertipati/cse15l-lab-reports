@@ -62,7 +62,7 @@ kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep -i "OuR" technical/9
 ```
 - **Example 2:**
 
-The following is the command I used. The command matches `waTER` regardless of the case of the letters and the output is all the lines in `water_fees.txt` that match this requirement.
+The following is the command I used. The command matches `waTER` regardless of the case of the letters and the output is all the lines in `water_fees.txt` that match this requirement. Hence the output is all the lines with `water` or even `Water`.
 
  ```
  kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep -i "waTER"  technical/government/Media/water_fees.txt
@@ -110,6 +110,7 @@ kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep -c "disaster" techni
 5
 ```
 **What `grep -c` does and why it could be useful:**
+
 The `grep -c` command can be used to count the number of lines in which the given string/word occurs in the specified file. This could be useful if we what to just count how many times a word occurs in a very large file. And if we would want a number to show the ammount of occurances rather than printing out all the lines of occurance in such a large file. This would serve to be more consize rather than using the grep command and manually counting the number of times the string matched.
 
 --------
@@ -138,6 +139,7 @@ kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep -n "residents" techn
 42:lawsuit. He said the city still maintains that the residents of the
 ```
 **What `grep -n` does and why it could be useful:**
+
 The `grep -n` command can be used to get both the line numbers and the lines that match the string in the command line, displayed in the output. This could be helpful to later find which exact lines match the string. Instead of searching through the entire file for these particular lines, now with the line numbers we could easily identify which line matches in the file. This could help if the user wanted to check if which lines in the files contain a particular word, and then later wanted to get more context and would re-check the lines from the file itself. Knowing the line numbers for such situations could prove to be useful, since it provides the user more information about the lines that match and hence the user can easily pick them up from the file itself.
 
 --------
