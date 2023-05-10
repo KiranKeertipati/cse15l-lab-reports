@@ -5,7 +5,7 @@ Out of the three commands we had to pick: `less`, `find`, and `grep`, and I chos
 
 ## The `grep` Command: #
 
-This is the link I used to research the different ways to implement the `grep` command: `https://www.geeksforgeeks.org/grep-command-in-unixlinux/`. This is the hyperlinked version of the link to the website I used for this lab report: [LinkToResource](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+This is the link I used to research the different ways to implement the `grep` command: `https://www.geeksforgeeks.org/grep-command-in-unixlinux/`. I types out grep command line operations in my google browser and this was one of the links I got. All the commands that I used in this report were from this link. This is the hyperlinked version of the link to the website I used for this lab report: [LinkToResource](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
 ## The 4 Command-line options: #
 I used all of these variations of the `grep` command on the files and directories from `./technical`.
