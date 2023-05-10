@@ -97,23 +97,25 @@ This command counts the number of lines in the file that match with the string p
 
 - **Example 1:**
 
-The following is an example of using the `grep -c` command to count the number of lines `Our` occurs in the file `preface.txt`. I produces the output 2, because there are two lines in `preface.txt` that match the given string ` Our`. The following is the command I used and the resulting output:
+The following is an example of using the `grep -c` command to count the number of lines `Our` occurs in the file `preface.txt`. I produces the output `2`, because there are two lines in `preface.txt` that match the given string `Our`. The following is the command I used and the resulting output:
 
 ```
 kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep -c "Our" technical/911report/preface.txt
 2
 ```
+
 - **Example 2:**
 
-This example counts the number of lines the string `disaster` matches with in the file `Disaster_center.txt`. The code block bellow shows the command I used and the output, from which one can understand that there are 5 lines which have `disaster` in them in the file `Disaster_center.txt`.
+This example counts the number of lines the string `disaster` matches with in the file `Disaster_center.txt`. The code block bellow shows the command I used and the output, from which one can understand that there are five lines which have `disaster` in them in the file `Disaster_center.txt`.
 
 ```
 kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep -c "disaster" technical/government/Media/Disaster_center.txt
 5
 ```
+
 **What `grep -c` does and why it could be useful:**
 
-The `grep -c` command can be used to count the number of lines in which the given string/word occurs in the specified file. This could be useful if we what to just count how many times a word occurs in a very large file. And if we would want a number to show the ammount of occurances rather than printing out all the lines of occurance in such a large file. This would serve to be more consize rather than using the grep command and manually counting the number of times the string matched.
+The `grep -c` command can be used to count the number of lines in which the given string/word occurs in the specified file. This could be useful if we want to just count how many times a word occurs in a very large file. And if we would want a number to show the amount of occurances rather than printing out all the lines of occurance in such a large file. This would serve to be more consize rather than using the grep command and manually counting the number of times the string matched.
 
 --------
 
@@ -130,6 +132,7 @@ kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep -n "Our" technical/9
 17:            Our mandate was sweeping. The law directed us to investigate "facts and circumstances
 30:            Our aim has not been to assign individual blame. Our aim has been to provide the
 ```
+
 - **Example 2:**
 
 The following example uses `grep -n` to output the lines along with the lines numbers which match with the string `residents` in the file `residents_sue_city.txt`. The following code block shows the command that I passed in the output with the line numbers and the lines that match displayed:
