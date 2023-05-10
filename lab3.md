@@ -62,7 +62,7 @@ kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep -i "OuR" technical/9
 ```
 - **Example 2:**
 
-The following is the command I used. The command matches `waTER` regardless of the case of the letters and the output is all the lines in `water_fees.txt` that match this requirement. Hence the output is all the lines with `water` or even `Water`.
+The following is another command I used. The command matches `waTER` regardless of the case of the letters and the output is all the lines in `water_fees.txt` that match this requirement. Hence the output is all the lines with `water` or even `Water`.
 
  ```
  kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep -i "waTER"  technical/government/Media/water_fees.txt
