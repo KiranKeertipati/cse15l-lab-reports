@@ -96,6 +96,7 @@ The `grep -i` command matches the lines in the file with the string provided in 
 This command counts the number of lines in the file that match with the string provided in the command line.
 
 - **Example 1:**
+
 The following is an example of using the `grep -c` command to count the number of lines `Our` occurs in the file `preface.txt`. I produces the output 2, because there are two lines in `preface.txt` that match the given string ` Our`. The following is the command I used and the resulting output:
 
 ```
@@ -103,6 +104,7 @@ kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep -c "Our" technical/9
 2
 ```
 - **Example 2:**
+
 This example counts the number of lines the string `disaster` matches with in the file `Disaster_center.txt`. The code block bellow shows the command I used and the output, from which one can understand that there are 5 lines which have `disaster` in them in the file `Disaster_center.txt`.
 
 ```
@@ -120,6 +122,7 @@ The `grep -c` command can be used to count the number of lines in which the give
 This command includes the lines that match with the given string and it also includes the line number of the lines in the specified file. When the line matches it displays the line number also in the output.
 
 - **Example 1:**
+
 The following example uses the `grep -n` command to check the matches of the string `Our` in the file `preface.txt`. This results in the output having the lines which contain the string `Our`, anong with their respective line numbers. The following code block is the command and the output that was displayed by it:
 
 ```
@@ -128,6 +131,7 @@ kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep -n "Our" technical/9
 30:            Our aim has not been to assign individual blame. Our aim has been to provide the
 ```
 - **Example 2:**
+
 The following example uses `grep -n` to output the lines along with the lines numbers which match with the string `residents` in the file `residents_sue_city.txt`. The following code block shows the command that I passed in the output with the line numbers and the lines that match displayed:
 
 ```
@@ -149,6 +153,7 @@ The `grep -n` command can be used to get both the line numbers and the lines tha
 This command displays all the lines that do not match/contain the string/word from the command line. When we want all the lines that do not match with a specific string.
 
 - **Example1:**
+
 This example tries to find all the lines in `preface.txt` that do not contain the string `our`. Hence all the lines apart from the lines having the string `our` are displayed as the output for this particular command line. The block code below shows the command line and the resulting output:
 
 ```
@@ -240,6 +245,7 @@ kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep -v "our" technical/9
 ```
 
 - **Example2:**
+
 This example displays all the lines in `water_fees.txt` that do not contain the first letter capatilized string `Water`. This would be useful if we wanted to find all the lines that do not have the word 'water' with a capital 'w'. The following block code contains the command line and the output that it displays:
 
 ```
