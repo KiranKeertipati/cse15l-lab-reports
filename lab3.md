@@ -26,7 +26,7 @@ The following was the output of the above command:
 
 - **Example 1:**
 
-This command bellow is the normal `grep`command that tries finds all the lines in `preface.txt` which match with the string `OuR`, but since there are no lines with the specific `Our` string, it has no output:
+This command bellow is the normal `grep`command that tries finds all the lines in `preface.txt` which match with the string `OuR`, but since there are no lines with the specific `OuR` string, it has no output:
 ```
 kirankeertipati@Kirans-MacBook-Pro stringsearch-data % grep "OuR" technical/911report/preface.txt
 ```
