@@ -50,5 +50,5 @@ To do this I used `git commit -a` then `<enter>` and this opened up the followin
 I then typed in the message I wanted to commit using the following keys:
 `<i> Edited the ListExamples file` `<esc>` `:wq` this helped me type my message, then save and quit.
 The following image was the result:
-![step8-2](step8-2.png)
+<img src="step8-2.png" width="75%" height="75%" />
 After this using `git push` I pushed my worked to GitHub.
