@@ -40,7 +40,7 @@ After making the edits, I used the up arrow key`<up>`, to get `vim ListExamples.
 ### 8. Run the tests, demonstrating that they now succeed #
 I then retyped `bash test.sh` and then pressed on `<enter>` and the tests ran and passed. The image below shows the output that the tests ran:
 
-![step8](step8.png)
+<img src="step8.png" width="75%" height="75%" />
 
 ### 9. Commit and push the resulting change to your Github account #
 
