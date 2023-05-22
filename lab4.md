@@ -8,7 +8,7 @@ To log in to my ieng6 account, I first opened a terminal and typed the following
 
 ### 5. Cloning the fork of the repository from your Github account #
 To fork and clone the Github repository I did the following steps:
-I went to the `https://github.com/ucsd-cse15l-s23/lab7` repository and forked it on GitHub. After this I opened the forked `lab7` repository on my GitHub account and copied the link from there. Then I went back to my terminal and typed `git clone` then using `<comman>` and `<v>` I pasted the following: `https://github.com/KiranKeertipati/lab7`
+I went to the `https://github.com/ucsd-cse15l-s23/lab7` repository and forked it on GitHub. After this I opened the forked `lab7` repository on my GitHub account and copied the link from there. Then I went back to my terminal and typed `git clone` then using `<command>` and `<v>` I pasted the following: `https://github.com/KiranKeertipati/lab7`
 Hence now the line read :`git clone https://github.com/KiranKeertipati/lab7` after which I pressed `<enter>`.
 Below is the the input and the output of this step:
 
@@ -16,7 +16,7 @@ Below is the the input and the output of this step:
 
 ### 6. Run the tests, and demonstrating that they fail #
 To do this step, typed the following keys and the resultant output is shown below: 
-`ls` `<enter>` then `cd lab7` `<enter>` then `ls` `<enter>` then `bash test.sh`. These commands helped me navigate through my account and change the directly to lab7, and view the contents of lab7. After which I ran the tests using `bash test.sh`.
+`ls` `<enter>` then `cd lab7` `<enter>` then `ls` `<enter>` then `bash test.sh`. These commands helped me navigate through my account and change the directory to lab7, and view the contents of lab7. After which I ran the tests using `bash test.sh`.
 
 ![step6](step6.png)
 As the image shows, the tests fail before the file has been edited.
