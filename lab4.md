@@ -40,7 +40,7 @@ After making the edits, I used the up arrow key`<up>`, to get `vim ListExamples.
 ### 8. Run the tests, demonstrating that they now succeed #
 I then retyped `bash test.sh` and then pressed on `<enter>` and the tests ran and passed. The image below shows the output that the tests ran:
 
-<img src="step8.png" width="75%" height="75%" />
+<img src="step8.png" width="50%" height="50%" />
 
 ### 9. Commit and push the resulting change to your Github account #
 
@@ -51,4 +51,5 @@ I then typed in the message I wanted to commit using the following keys:
 `<i> Edited the ListExamples file` `<esc>` `:wq` this helped me type my message, then save and quit.
 The following image was the result:
 <img src="step8-2.png" width="75%" height="75%" />
+
 After this using `git push` I pushed my worked to GitHub.
