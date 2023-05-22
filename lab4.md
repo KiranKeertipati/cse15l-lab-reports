@@ -27,11 +27,11 @@ To edit the code in `ListExamples.java` using `vim` I typed the following onto t
 ![step7-1](step7-1.png)
 
 To make the required edits that will make the tests pass I pressed the following keys:
-`<j><j><l><l><l><l><l><l><l><l><l><l><l>` (This helped me reach `index1` in the last while loop in merge, my cursor was now on the `1`.)
-`<x>` (This helped me delete the `1`)
-`<i> 2` (This helped me insert the `2` at the place my cursor was)
-`<esc>` (This helped me leave the insert mode)
-`:wq` (This helped me save and then quit, which took me back to my terminal)
+- `<j><j><l><l><l><l><l><l><l><l><l><l><l>` (This helped me reach `index1` in the last while loop in merge, my cursor was now on the `1`.)
+- `<x>` (This helped me delete the `1`)
+- `<i> 2` (This helped me insert the `2` at the place my cursor was)
+- `<esc>` (This helped me leave the insert mode)
+- `:wq` (This helped me save and then quit, which took me back to my terminal)
 
 After making the edits, I used the up arrow key`<up>`, to get `vim ListExamples.java` back onto the line after which I pressed on `<enter>`. I did this step to just ensure that the changes to my code were actually present and saved. The image below shows the edited file.
 
