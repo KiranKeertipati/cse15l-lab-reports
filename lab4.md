@@ -21,7 +21,7 @@ To do this step, typed the following keys and the resultant output is shown belo
 ![step6](step6.png)
 As the image shows, the tests fail before the file has been edited.
 
-### 7.Edited the code using `vim` # (changing index1 to index2)
+### 7. Edited the code using `vim` (changing index1 to index2)
 To edit the code in `ListExamples.java` using `vim` I typed the following onto the terminal: `vim ListExamples.java`. This opened up the file as shown in the following picture. This is the unchanged version of the file:
 
 ![step7-1](step7-1.png)
