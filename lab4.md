@@ -12,13 +12,13 @@ I went to the `https://github.com/ucsd-cse15l-s23/lab7` repository and forked it
 Hence now the line read :`git clone https://github.com/KiranKeertipati/lab7` after which I pressed `<enter>`.
 Below is the the input and the output of this step:
 
-![step5](step5.png)
+<img src="step5.png" width="75%" height="75%" />
 
 ### 6. Run the tests, and demonstrating that they fail #
 To do this step, typed the following keys and the resultant output is shown below: 
 `ls` `<enter>` then `cd lab7` `<enter>` then `ls` `<enter>` then `bash test.sh`. These commands helped me navigate through my account and change the directory to lab7, and view the contents of lab7. After which I ran the tests using `bash test.sh`.
 
-![step6](step6.png)
+<img src="step6.png" width="75%" height="75%" />
 As the image shows, the tests fail before the file has been edited.
 
 ### 7. Edited the code using `vim` (changing index1 to index2)
