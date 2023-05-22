@@ -45,7 +45,7 @@ I then retyped `bash test.sh` and then pressed on `<enter>` and the tests ran an
 ### 9. Commit and push the resulting change to your Github account #
 
 To do this I used `git commit -a` then `<enter>` and this opened up the following:
-![step8-1](step8-1.png)
+<img src="step8-1.png" width="50%" height="50%" />
 
 I then typed in the message I wanted to commit using the following keys:
 `<i> Edited the ListExamples file` `<esc>` `:wq` this helped me type my message, then save and quit.
