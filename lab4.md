@@ -43,4 +43,11 @@ I then retyped `bash test.sh` and then pressed on `<enter>` and the tests ran an
 ![step8](step8.png)
 
 ### 9. Commit and push the resulting change to your Github account #
-To do this I used `git commit -m "Edited the ListExamples file"` and `git push` and this resulted in the edits being added to GitHub.
+
+To do this I used `git commit -a` then `<enter>` and this opened up the following:
+![step8-1](step8-1.png)
+
+I then typed in the message I wanted to commit using the following keys:
+`<i> Edited the ListExamples file` `<esc>` `:wq` this helped me type my message, then save and quit.
+The following image was the result:
+![step8-2](step8-2.png)
