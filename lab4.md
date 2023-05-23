@@ -53,4 +53,4 @@ I then typed in the message I wanted to commit using the following keys:
 The following image was the result:
 <img src="step8-2.png" width="75%" height="75%" />
 
-After this using `git push` I pushed my worked to GitHub.
+After this I pushed my worked to GitHub.
