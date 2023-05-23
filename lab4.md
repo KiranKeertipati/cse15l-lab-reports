@@ -4,7 +4,7 @@ For this lab we had to track steps 4 to 9 from the Week 7 lab and note down all 
 ### 4. Loging into your ieng6 account : #
 To log in to my ieng6 account, I first opened a terminal and typed the following code: `ssh cs15lsp23nt@ucsd.edu`. I was then prompted to enter my password, which I did, then I pressed `<enter>` and I entered my account. The following was the results of the above steps:
 
-<img src="step4.png" width="50%" height="50%" />
+<img src="step4.png" width="75%" height="75%" />
 
 ### 5. Cloning the fork of the repository from your Github account #
 To fork and clone the Github repository I did the following steps:
