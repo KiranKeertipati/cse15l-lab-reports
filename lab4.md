@@ -12,13 +12,14 @@ I went to the `https://github.com/ucsd-cse15l-s23/lab7` repository and forked it
 Hence now the line read :`git clone https://github.com/KiranKeertipati/lab7` after which I pressed `<enter>`.
 Below is the the input and the output of this step:
 
-<img src="step5.png" width="75%" height="75%" />
+<img src="step5.png" width="65%" height="65%" />
 
 ### 6. Run the tests, and demonstrating that they fail #
 To do this step, typed the following keys and the resultant output is shown below: 
 `ls` `<enter>` then `cd lab7` `<enter>` then `ls` `<enter>` then `bash test.sh`. These commands helped me navigate through my account and change the directory to lab7, and view the contents of lab7. After which I ran the tests using `bash test.sh`.
 
-<img src="step6.png" width="75%" height="75%" />
+<img src="step6.png" width="65%" height="65%" />
+
 As the image shows, the tests fail before the file has been edited.
 
 ### 7. Edited the code using `vim` (changing index1 to index2)
@@ -40,12 +41,12 @@ After making the edits, I used the up arrow key`<up>`, to get `vim ListExamples.
 ### 8. Run the tests, demonstrating that they now succeed #
 I then retyped `bash test.sh` and then pressed on `<enter>` and the tests ran and passed. The image below shows the output that the tests ran:
 
-<img src="step8.png" width="50%" height="50%" />
+![step8](step8.png)
 
 ### 9. Commit and push the resulting change to your Github account #
 
 To do this I used `git commit -a` then `<enter>` and this opened up the following:
-<img src="step8-1.png" width="50%" height="50%" />
+<img src="step8-1.png" width="70%" height="70%" />
 
 I then typed in the message I wanted to commit using the following keys:
 `<i> Edited the ListExamples file` `<esc>` `:wq` this helped me type my message, then save and quit.
