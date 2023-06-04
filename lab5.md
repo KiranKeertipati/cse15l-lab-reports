@@ -56,7 +56,8 @@ These were the contents of the two files that I utilized in my command. I wanted
 
 This was `combined.txt` when the bug was present. The code still created the file, but it remained empty, without the contents of `chapter-1.txt` and `chapter-1.txt`.
 
-![combinedBefore](combinedBefore.png)
+<img src="combinedBefore.png" width="60%" height="60%" />
+
 
 **- The full command line (or lines) you ran to trigger the bug**
 After using `cd stringsearch-data` to enter the required directory, I typed out the following command on the command line:
