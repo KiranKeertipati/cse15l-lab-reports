@@ -16,6 +16,7 @@ Thanks for reaching out! I believe that the issue is with your bash script. Bash
 ### 3. The corrected code and correct output after trying what the TA suggested ###
 
 The image below shows the corrected code in `script.sh`, after removing the unnecessary spacing around the `=` sign:
+
 <img src="correctedcode.png" width="60%" height="60%" />
 
 The image below shows the command that was used to execute the code in `script.sh`:
@@ -57,7 +58,6 @@ This was `combined.txt` when the bug was present. The code still created the fil
 
 ![combinedBefore](combinedBefore.png)
 
-
 **- The full command line (or lines) you ran to trigger the bug**
 After using `cd stringsearch-data` to enter the required directory, I typed out the following command on the command line:
 
@@ -69,6 +69,6 @@ This was the exact command that I ran, which triggered the bug, The screenshot a
 
 To fix the errors and to ensure that the contents of the two files are actually combined and added to `combined.txt`, I fixed the code in `script.sh`. The code in `script.sh` should be edited to match the following screenshot:
 
-![correctedcode](correctedcode.png)
+<img src="correctedcode.png" width="60%" height="60%" />
 
 That is, the spaces around the `=` in lines 1 and 2 have to removed, since the initial code does not follow the right syntax required for bash to assign variables. After fixing this error, the command should run without errors, and the combined contents of the two text files will be added into the file `combined.txt`.
