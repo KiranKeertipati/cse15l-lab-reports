@@ -16,8 +16,7 @@ Thanks for reaching out! I believe that the issue is with your bash script. Bash
 ### 3. The corrected code and correct output after trying what the TA suggested ###
 
 The image below shows the corrected code in `script.sh`, after removing the unnecessary spacing around the `=` sign:
-
-![correctedcode](correctedcode.png)
+<img src="correctedcode.png" width="60%" height="60%" />
 
 The image below shows the command that was used to execute the code in `script.sh`:
 
