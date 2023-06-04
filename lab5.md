@@ -14,3 +14,8 @@ Thanks for reaching out! I believe that the issue is with your bash script. Bash
 
 
 ### The corrected code and correct output after trying what the TA suggested ###
+![correctedcode](correctedcode.png)
+
+![correctedcommand](correctedcommand.png)
+
+![correctedoutput](correctedoutput.png)
