@@ -34,7 +34,8 @@ The bug was a mistake in the code written in `script.sh`. The code initially did
 
 **- The file & directory structure needed**
 I used the fork of the `stringsearch-data` repository. I then created a new `script.sh` file in this repository and typed out the code in that. So the file/directory structure is very similar to `stringsearch-data` and is provided below:
- <img src="file.png" width="40%" height="40%" />
+
+ <img src="file.png" width="20%" height="20%" />
 
 **- The contents of each file before fixing the bug**
 This was the `script.sh` file with the bug (i.e unnecessary spacing around `=`):
