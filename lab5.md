@@ -35,12 +35,12 @@ The bug was a mistake in the code written in `script.sh`. The code initially did
 **- The file & directory structure needed**
 I used the fork of the `stringsearch-data` repository. I then created a new `script.sh` file in this repository and typed out the code in that. So the file/directory structure is very similar to `stringsearch-data` and is provided below:
 
- <img src="file.png" width="20%" height="20%" />
+ <img src="file.png" width="30%" height="30%" />
 
 **- The contents of each file before fixing the bug**
 This was the `script.sh` file with the bug (i.e unnecessary spacing around `=`):
 
-![scriptBefore](scriptBefore.png)
+ <img src="scriptBefore.png" width="70%" height="70%" />
 
 
 These were the contents of the two files that I utilized in my command. I wanted to combine the contents `technical/911report/chapter-1.txt` and `technical/911report/chapter-1.txt` into the file `combined.txt`.
