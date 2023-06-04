@@ -34,9 +34,10 @@ The bug was a mistake in the code written in `script.sh`. The code initially did
 ### Information needed for the setup: ###
 
 **The file & directory structure needed**
-
+![file](file.png)
 **The contents of each file before fixing the bug**
-
+![chapter1](chapter1.png)
+![chapter2](chapter2.png)
 **The full command line (or lines) you ran to trigger the bug**
 
 **A description of what to edit to fix the bug**
