@@ -73,3 +73,7 @@ To fix the errors and to ensure that the contents of the two files are actually 
 <img src="correctedcode.png" width="60%" height="60%" />
 
 That is, the spaces around the `=` in lines 1 and 2 have to removed, since the initial code does not follow the right syntax required for bash to assign variables. After fixing this error, the command should run without errors, and the combined contents of the two text files will be added into the file `combined.txt`.
+
+
+## Part 2 - Reflection ##
+I learned about `vim` which was part of doing it all from the command line. This was a new concept that I hadn't heard of before, and it was very interesting to learn about how each letter on the keyboard is a command and the various modes of `vim`. I also learned how to implement the gradescope server. Gradescope is something I use very often to submit assignments and hence it was nice to learn how to create a basic gradescope implementation. 
